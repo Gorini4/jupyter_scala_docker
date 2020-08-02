@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+
+  # Almond
+  almond:
+    image: almondsh/almond:latest
+    ports:
+      - 8888:8888
+      - 4040-4050:4040-4050
+    volumes:
+      - ./notebooks:/home/jovyan/work
