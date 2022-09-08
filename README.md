@@ -22,3 +22,8 @@ val spark = {
 ``` Scala
 val df = spark.read.csv("data.csv")
 ```
+
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
